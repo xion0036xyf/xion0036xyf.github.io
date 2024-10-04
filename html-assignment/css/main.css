@@ -1,0 +1,39 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: blanchedalmond;
+}
+
+.site-title {
+    color: darkgoldenrod;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies-list {
+    list-style-type: square;
+
+}
+
+.hobbies-list li:nth-child(odd) {
+    background-color: brown;
+}
+
+.navagation {
+    background-color: aquamarine;
+    border: 2px;
+}
+
+.navagation:hover,
+.navagation:focus {
+    background-color: rgb(228, 164, 15);
+}
+
+.navagation {
+    text-decoration: none;
+}
