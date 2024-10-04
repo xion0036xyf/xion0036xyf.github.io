@@ -24,16 +24,16 @@ header, footer {
     background-color: brown;
 }
 
-.navagation {
+.navigation {
     background-color: aquamarine;
     border: 2px;
 }
 
-.navagation:hover,
-.navagation:focus {
+.navigation:hover,
+.navigation:focus {
     background-color: rgb(228, 164, 15);
 }
 
-.navagation {
+.navigation {
     text-decoration: none;
 }
