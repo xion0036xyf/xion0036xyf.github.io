@@ -78,10 +78,108 @@ header h1 {
 }
 
 
+nav ul {
+	font-size: 30px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #d4e9e7;
+	
+	
+}
+
+nav ul li {
+	display: inline-block;
+	width: calc( 80% / 3);
+	padding: 10px;
+	font-weight: 200;
+	border-right: 1px solid black;
+	
+}
+
+nav ul :last-child {
+	border-right: none;
+}
+
+#introduce h2 {
+	position: relative;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#introduce img {
+	width: 250px;
+}
+
+
+.wrapper {
+	padding: 20px;
+}
+
+img {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+#introduce p {
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#facts {
+	clear: both;
+}
+
+.title2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.list {
+	list-style-type: disc;
+	margin-left: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:600;
+}
+
+.title3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper form label {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+
+#form2 p {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 
 footer {
 	max-width: 1000px;
 	margin: auto;
 	background-color: #d4e9e7;
+	padding: 20px;
+	margin-bottom: 30px;
+	text-align: right;
+	font-weight: bold;
 }
