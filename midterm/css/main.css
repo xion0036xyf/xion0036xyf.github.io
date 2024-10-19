@@ -53,3 +53,22 @@ body {
 	background-color: #aad4cf;
 	
 }
+
+.wrapper {
+	max-width: 1000px;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	color: #ffffff;
+	font-size: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
