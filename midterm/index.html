@@ -8,14 +8,14 @@
 </head>
 <body>
     <header>
-        <div class="wrapper">
+        <div>
             <h1>Lone Starfish</h1>
             <img src="images/lone-starfish-wide.jpg" alt="bigstarfish">
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>STORY</li>
-                    <li>CONTACT</li>
+                    <li><a href="#introduce">HOME</a></li>
+                    <li><a href="#facts">STORY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,22 +48,35 @@
             
         </section>
 
-        <section id="section3">            
-            <div class="wrapper" id="form1">
-                    <h2 class="title3">Contact to learn more</h2>
+        <section id="contact">
+            <h2 class="wrapper" id="title3">Contact to learn more </h2> 
+            
+            <div id="wholeform">
+                <div class="wrapper" id="form1">                    
                     <form action="/submit" method="post">
-                        <label for="fullname">Your Name</label><br>
-                        <input id="fullname"  type="text"><br>
-                        <label for="email">Your Email</label><br>
-                        <input id="email"  type="email"><br>
-                        <label for="message">Your Message</label><br>
-                        <textarea name="message" id="message"></textarea><br>
+                        
+                        <div class="choice">
+                            <label for="fullname">Your Name</label><br>
+                            <input id="fullname"  type="text"><br>
+                        </div>
+                        
+                        <div class="choice">
+                            <label for="email">Your Email</label><br>
+                            <input id="email"  type="email"><br>
+                        </div>
+                        
+                        <div class="choice">
+                            <label for="message">Your Message</label><br>
+                            <textarea name="message" id="message"></textarea><br>
+                        </div>
+                        
+                        
                     </form>
                 </div>
-    
+
                 <div class="wrapper" id="form2">
-                    <p>Would you like to visit the starfish?</p>
-                    <form action="/submit" method="post">
+                    <p class="choice"> Would you like to visit the starfish?</p>
+                    <form class="choice" action="/submit" method="post">
                         <label for="yes">Yes</label>
                         <input type="radio" id="yes" name="visit" value="yes">
                         <label for="no">No</label>
@@ -72,15 +85,19 @@
                         <input type="radio" id="maybe" name="visit" value="maybe">
                     </form>
                 </div>
+
+
+                <form id="form3">
+                    <div>
+                        <input type="submit" value="Send"  class="transparentbotton">
+                    </div>
+                </form>
     
-                <div class="wrapper" id="form3">
-                    <input type="submit" value="Send">
-                </div>
+                
                 
 
-            </div>
-        
-            
+            </div>   
+           
         </section>
 
 
