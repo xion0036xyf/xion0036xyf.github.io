@@ -60,9 +60,11 @@ body {
 
 .wrapper {
 	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
-	padding: 20px;
 }
+
+/* ======This is the header part======== */
 
 header .banner {
 	background-color: #222;
@@ -127,4 +129,59 @@ button i {
 	flex-grow: 1;
 }
 
+/* ========This is the homepage part========= */
+
+.homepage {
+	width: 100%;
+	position: relative;
+}
+
+.homepage  img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.banner-content {
+	position: absolute;
+	background-color:rgba(0, 0, 0, 0,5);
+	color:white;
+	top: 50%;
+	left: 50%;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%; 
+	box-sizing: border-box;
+	transform: translate(-50%, -50%); 
+	padding: 20px;
+}
+
+.banner-content h1 {
+	margin: 0;
+	font-size: 4rem; 
+	font-weight: bold;
+	line-height: 1.5;
+
+}
+
+.banner-content p {
+	line-height: 1.5;
+	padding: 20px 0;
+}
+
+.banner-content a {
+	text-decoration: none;
+	color:black;
+	display: inline-block;
+	background-color: #c78c06;
+	padding: 30px  45px;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.banner-content a i {
+	font-size: 2rem;
+	vertical-align: middle;
+/* ====words and the triangle are align together==== */
+}
 
