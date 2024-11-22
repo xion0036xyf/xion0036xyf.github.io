@@ -50,3 +50,81 @@ table {
 
 /* ===========My Css========= */
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:"Open Sans",sans-serif;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header .banner {
+	background-color: #222;
+	display:grid;
+	grid-template-rows: 2fr 5fr 1fr;
+	width: 100%;
+	padding: 15px 15px;
+	height: 480px;
+}
+
+ header .banner .logoimage { 
+	width: 100%;
+	background-color:#c78c06;
+} 
+
+
+header .banner .navigation {
+	display: grid;
+	grid-template-rows: repeat(5);
+	width: 100%;
+
+}
+
+header .banner .navigation .home {
+	background-color: #c78c06;
+	text-align: center;
+	padding: 20px;
+	color: #000;
+}
+
+.navigation li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #c78c06;
+	font-size: large;
+}
+
+form {
+	display: flex;
+	gap: 5px;
+	margin-top: 10px;
+
+}
+button {
+    color: #c78c06;
+    background-color:transparent;
+    border: 2px solid #c78c06;
+	height: 100%;
+	aspect-ratio: 1;
+  }
+
+button i {
+	font-size: 20px;
+}
+
+#keywords::placeholder {
+	font-size:large;
+} 
+
+#keywords {
+	flex-grow: 1;
+}
+
+
